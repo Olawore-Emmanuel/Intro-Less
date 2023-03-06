@@ -1,0 +1,113 @@
+.sec1 {
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px ;
+}
+@media (min-width: 1440px) {
+  .sec1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+@media (min-width: 1440px) {
+  .sec1 .users {
+    width: 600px;
+  }
+}
+.sec1 h2 {
+  color: hsl(300, 43%, 22%);
+}
+@media (min-width: 1440px) {
+  .sec1 h2 {
+    font-size: 80px;
+  }
+}
+.sec1 p {
+  color: hsl(303, 10%, 53%);
+}
+@media (min-width: 1440px) {
+  .sec1 p {
+    font-size: 25px;
+  }
+}
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: 'League Spartan', sans-serif;
+}
+.reviews {
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 8px;
+  border-radius: 12px;
+  padding-top: 8px ;
+  padding-bottom: 8px;
+}
+@media (min-width: 1440px) {
+  .reviews {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px ;
+    margin-bottom: 20px;
+    gap: 50px;
+  }
+}
+.reviews p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+@media (min-width: 1440px) {
+  .reviews p {
+    font-size: 20px;
+  }
+}
+.sec2 {
+  padding: 10px 10px;
+}
+@media (min-width: 1440px) {
+  .sec2 {
+    display: flex;
+    gap: 10px;
+    padding: 50px 150px;
+  }
+}
+.sec2 .buyer {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+.sec2 .buyer .profile {
+  display: flex;
+  gap: 15px;
+}
+.sec2 .buyer .profile h4 {
+  color: white;
+  font-weight: 500;
+}
+.sec2 .buyer .profile h5 {
+  color: hsl(333, 80%, 67%);
+  font-weight: 500;
+}
+.sec2 .buyer .profile img {
+  border-radius: 50%;
+  width: 50px ;
+  height: 50px;
+}
+.sec2 .buyer p {
+  color: white;
+  line-height: 1.5;
+}
+.name {
+  line-height: 0.1;
+}
+@media (min-width: 1440px) {
+  .rating {
+    margin-top: 80px;
+  }
+}
